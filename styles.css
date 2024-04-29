@@ -1,0 +1,22 @@
+text {
+    pointer-events: none;
+   }
+
+#svg-wrapper {
+    margin:auto;
+    width: 100%;
+    max-width: 170vh;
+    /* max-height: 80vh; */
+}   
+
+.transparent {
+    opacity: 10%;
+    transition-property: opacity;
+    transition-duration: 0.62s;
+}
+
+.opaque {
+    opacity: 100%;
+    transition-property: opacity;
+    transition-duration: 0.62s;
+}
